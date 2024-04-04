@@ -1,0 +1,166 @@
+body main {
+  margin: 0rem auto;
+  align-items: center;
+  height: 100%;
+  line-height: 1.5;
+  font-family: arial;
+}
+
+main {
+  background-color: lightblue;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+header {
+  width: 75%;
+  justify-content: center;
+  text-align: center;
+  background-color: lightcyan;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 1rem;
+}
+
+h1 {
+  background-color: lightcyan;
+  border-radius: 0.5rem;
+  border-bottom: solid 5px blueviolet;
+  font-family: verdana;
+}
+
+header>p {
+  font-size: 17px;
+  text-align: center;
+}
+
+header .rules {
+  background-color: #c9ff76;
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.head-section {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  /* height: 18.75rem; */
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 0.8rem;
+  position: relative;
+}
+
+.input-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-header p {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 0.3rem;
+  text-align: center;
+  height: 100%;
+}
+
+.gentext {
+  max-width: 100%;
+  width: 100%;
+  height: 15rem;
+  border-radius: 1rem;
+  padding: 10px 0px 0px 5px;
+  word-wrap: break-word;
+  margin-bottom: 0.5rem;
+  border: none;
+  resize: none;
+  outline: none;
+  background-color: lightblue;
+  color: blue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  line-height: 1.3rem;
+  text-align: left;
+  word-spacing: 0.17em;
+}
+
+.gentext::placeholder {
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.text-input {
+  position: relative;
+}
+.user-input {
+  position: fixed; 
+  z-index: 10;
+}
+
+/* border outline with js*/
+/*animate the tex when generated*/
+.section-footer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.success-box {
+  background-color: white;
+  height: auto;
+  line-height: 3rem;
+  width: 20rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 20px 0rem;
+  color: green;
+}
+
+.buttons {
+  background-color: lightblue;
+  padding: 1rem;
+  margin: 0.3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+}
+
+.button {
+  border-radius: 0.3rem;
+  padding: 5px;
+  border: none;
+  max-height: 2rem;
+  width: 57px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+#start {
+  background-color: #008000b6;
+}
+
+#pause {
+  background-color: rgba(255, 166, 0, 0.715);
+  display: none;
+}
+
+#end {
+  background-color: red;
+  display: none;
+}
+#reset {
+  background-color: #008000b6;
+  display: none;
+}

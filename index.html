@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lorem Ipsum Tying Game</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="./script/LoremIpsum.js" defer></script>
+  <script src="./script/mains_script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Lorem Ipsum Typing Test</h1>
+      <p>Test You typing speed with this lorem Ipsum game</p>
+      <p class="rules">
+        You have 1 minute to type the target amount of word, found in the
+        target box below
+      </p>
+    </header>
+
+    <section class="head-section">
+      <section class="input-header">
+        <p id="wpm">WPM:<span id="wpm-counter">0</span> </p>
+        <p id="error">Error: <span id="error-out">0</span></p>
+        <p id="target">Target:<span id="target-counter">0</span>/<span id="target-set">0</span> </p>
+        <p id="time">Time:<span id="time-element">0&nbsp;</span><span id="change">min</span></p>
+        <p id="level">Level:<span id="level-counter">1</span> </p>
+      </section>
+
+      <div class="text-input">
+
+        <!-- <textarea id="typing-input" class="typing-input" spellcheck="false" readonly></textarea> -->
+        <div class="gentext" id="gentext"></div>
+        <label for="user-input"></label>
+        <input type="text" class="user-input" id="user-input">
+
+      </div>
+      <section class="section-footer">
+        <p id="success" class="success-box">Success Section</p>
+
+        <div class="buttons">
+          <button class="button" id="start">Start</button>
+          <button class="button" id="pause">Pause</button>
+          <button class="button" id="reset">Retry</button>
+          <button class="button" id="end">End</button>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+# JavaScript Structure
+
+- Variables for the elements
+   - The welcome pop up
+   - the text input
+   - the start button
+   - the end button
+   - the success box
+   - the level box
+   - time box
+   - the word counter box
+   - word erroe box
+   - the wpm box
+
+- functions for the interactive components
+   - function that display a pop up box for the player to enter there name and display it on the upper left of the box
+   - function for the random lorem ipsum text to be display in the text box set at a specified number of word
+      - and the content box is editable
+      - also add the lorem text in the background of the editor and change colour as the player types
+   - function for the start button that is connected to the lorem ipsum genertor, that when click it generate a new lorem ipsum
+   - function for the starting of the games
+      - when player starts typing the count down timer start
+   - function to check the amount of words type
+      - count the amount of words the player typed base on the lorem ipsum word and display it next to the target amount
+   - function for the errors
+      - counts the amount of error the play makes when typing a word and displays it to the error counter
+   - function for the WPM
+      - function that count the words per minute the player types and display it
+   - function to show the success message when game end
+   - function to change the level when player success at the current level
+   - function for the pause button and the end button and the start button
+      - diplay the pause button when the player start to type
+      - long clicked the pause button to end the game
+      - and a restart button end the game end
+      - the start button changes to go to the next level
+      - function to go to the next level
+   - funtion to display the rewards for each level
+      - after a level is completed the play can clame the rewards or start the next level and save to reward for later until they choose to claim the reward or can't complete another level
+
+- function for running the game
+   - create a function to put all these componet together and have it run
+   - connect related componet together and then add those to the other componet to create the final game.
